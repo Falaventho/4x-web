@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>4X Game - Hex Grid Mockup</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdn.jsdelivr.net/npm/phaser@3.55.2/dist/phaser.js"></script>
+  </head>
+  <body>
+    <div id="game-container"></div>
+    <div id="ui-panel">
+      <div id="turn-info">
+        <h2>Turn: <span id="turn-count">1</span></h2>
+        <p>Player: <span id="current-player">1</span></p>
+        <button id="end-turn-btn">End Turn</button>
+      </div>
+      <div id="hex-info">
+        <h3>Selected Hex</h3>
+        <p>Coordinate: <span id="hex-coords">None</span></p>
+        <p>Type: <span id="hex-type">None</span></p>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

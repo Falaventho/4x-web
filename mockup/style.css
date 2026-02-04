@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #1a1a1a;
+  color: #e0e0e0;
+  display: flex;
+}
+
+#game-container {
+  flex: 1;
+  background-color: #0a0a0a;
+  overflow: hidden;
+}
+
+#ui-panel {
+  width: 300px;
+  background-color: #2a2a2a;
+  padding: 20px;
+  border-left: 2px solid #444;
+  overflow-y: auto;
+  max-height: 100vh;
+}
+
+#turn-info {
+  margin-bottom: 30px;
+  padding: 15px;
+  background-color: #333;
+  border-radius: 5px;
+}
+
+#turn-info h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #4a9eff;
+}
+
+#turn-info p {
+  margin: 8px 0;
+  font-size: 14px;
+}
+
+#end-turn-btn {
+  margin-top: 15px;
+  width: 100%;
+  padding: 10px;
+  background-color: #4a9eff;
+  color: #000;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.3s;
+}
+
+#end-turn-btn:hover {
+  background-color: #6bb3ff;
+}
+
+#hex-info {
+  padding: 15px;
+  background-color: #333;
+  border-radius: 5px;
+}
+
+#hex-info h3 {
+  font-size: 16px;
+  margin-bottom: 10px;
+  color: #a0d995;
+}
+
+#hex-info p {
+  margin: 8px 0;
+  font-size: 13px;
+  color: #b0b0b0;
+}
+
+#hex-coords,
+#hex-type {
+  color: #ffb347;
+  font-weight: bold;
+}
+
+#turn-count,
+#current-player {
+  color: #ffb347;
+  font-weight: bold;
+}
